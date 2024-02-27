@@ -11,5 +11,8 @@ public class UnrealAdventureGameEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V4;
 
 		ExtraModuleNames.AddRange( new string[] { "UnrealAdventureGame" } );
+
+		bCompileAgainstEngine = true;
+
 	}
 }

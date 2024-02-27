@@ -1,4 +1,4 @@
-﻿// Georgy Treshchev 2024.
+// Georgy Treshchev 2024.
 
 #include "Codecs/VORBIS_RuntimeCodec.h"
 #include "RuntimeAudioImporterTypes.h"
@@ -6,7 +6,7 @@
 #include "HAL/PlatformProperties.h"
 #include "HAL/UnrealMemory.h"
 
-#include "VorbisAudioInfo.h"
+#include "Decoders/VorbisAudioInfo.h"
 #include "Interfaces/IAudioFormat.h"
 #ifndef WITH_OGGVORBIS
 #define WITH_OGGVORBIS 0
